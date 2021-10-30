@@ -90,7 +90,7 @@ public class PlayerHealth : MonoBehaviour
     //mematikan script player movement
     playerMovement.enabled = false;
 
-    //playerShooting.enabled = false;
+    playerShooting.enabled = false;
   }
 
 
