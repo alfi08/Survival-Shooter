@@ -23,7 +23,6 @@ public class GameOverManager : MonoBehaviour
         if (playerHealth.currentHealth <= 0)
         {
             anim.SetTrigger("GameOver");
-
             restartTimer += Time.deltaTime;
 
             if (restartTimer >= restartDelay)
@@ -35,7 +34,6 @@ public class GameOverManager : MonoBehaviour
 
     public void ShowWarning(float enemyDistance)
     {
-        Debug.Log("ShowWarning");
         warningText.text = string.Format("{0}m!",Mathf.RoundToInt(enemyDistance));
         anim.SetTrigger("Warning");
     }
