@@ -270,6 +270,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 100006, guid: f1d84cc28597f5641a3d9cbc4df7e306, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 100078, guid: f1d84cc28597f5641a3d9cbc4df7e306, type: 3}
       propertyPath: m_Name
       value: Player
@@ -674,7 +678,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerHealth: {fileID: 609014999}
-  spawnTime: 3
+  spawnTime: 10
   enemy: {fileID: 153412, guid: f264ab47e25d0374ba89abced0b94b2a, type: 3}
   spawnPoints:
   - {fileID: 1678166961}
@@ -705,7 +709,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerHealth: {fileID: 609014999}
-  spawnTime: 3
+  spawnTime: 5
   enemy: {fileID: 1274896284, guid: 8d5e35410bfe2594aa3bd435f3c55c9e, type: 3}
   spawnPoints:
   - {fileID: 1038272809}
@@ -746,7 +750,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damagePerShot: 20
   timeBetweenBullets: 0.15
-  range: 100
+  range: 1000000
 --- !u!82 &942546269
 AudioSource:
   m_ObjectHideFlags: 0
